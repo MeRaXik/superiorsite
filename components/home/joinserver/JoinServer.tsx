@@ -1,6 +1,7 @@
 "use client";
 
-import { Button, Link } from "@heroui/react";
+import { Button } from "@heroui/react";
+// Usunąłem import Link, ponieważ nie będziemy go tu używać w propie 'as'
 
 export function JoinServer() {
   const serverIp = "83.168.107.5:27015";
@@ -9,7 +10,7 @@ export function JoinServer() {
   return (
     <div className="flex flex-col gap-3 items-center">
       <Button
-        as={Link}
+        as="a"
         href={steamLink}
         size="lg"
         color="danger"
