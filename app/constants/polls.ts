@@ -10,29 +10,20 @@ export interface Poll {
 export const pollsData: Poll[] = [
   {
     id: "1",
-    title: "Feedback dotyczący balansu broni",
+    title: "Ankieta dotycząca serwera TTT.",
     description:
-      "Chcemy poznać Waszą opinię na temat ostatnich zmian w obrażeniach snajperek i shotgunów. Czy zmiany poszły w dobrą stronę?",
-    link: "https://docs.google.com/forms/u/0/",
-    date: "2023-11-15",
+      "Chcę poznać Waszą opinię na temat serwera TTT, jego funkcjonalności oraz zawartości!",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSdZlBbmciDKIgrx8-4vPxWaSMUoW7f_jejiKYMezkY0EJNjuw/viewform?usp=dialog",
+    date: "2026-02-09",
     isActive: true,
   },
   {
     id: "2",
-    title: "Nowa mapa na serwerze",
+    title: "Ankieta dotycząca strony internetowej",
     description:
-      "Głosowanie na nową mapę, którą dodamy w przyszłym miesiącu. Wybierzcie mądrze!",
-    link: "https://docs.google.com/forms/u/0/",
-    date: "2024-01-20",
-    isActive: true,
-  },
-  {
-    id: "3",
-    title: "Nowa mapa na serwerze",
-    description:
-      "Głosowanie na nową mapę, którą dodamy w przyszłym miesiącu. Wybierzcie mądrze!",
-    link: "https://docs.google.com/forms/u/0/",
-    date: "2025-01-20",
+      "Czy masz jakieś propozycje lub uwagi co do strony internetowej? Wypełnij tą ankietę i daj znać!",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSeLAm0MGb336Ckl-roVZDCVO2FOHJTVlR_Dsj5XbAbS_4nOiA/viewform?usp=dialog",
+    date: "2026-02-09",
     isActive: true,
   },
 ];
