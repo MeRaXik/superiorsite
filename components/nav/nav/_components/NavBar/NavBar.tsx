@@ -7,11 +7,11 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  NavbarMenuToggle, // Nowy import
-  NavbarMenu, // Nowy import
-  NavbarMenuItem, // Nowy import
+  NavbarMenuToggle,
+  NavbarMenu,
+  NavbarMenuItem,
 } from "@heroui/navbar";
-import { Image } from "@heroui/react"; // Upewnij się, że używasz Image z HeroUI lub Next.js (tutaj HeroUI wg Twojego kodu)
+import { Image } from "@heroui/react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 

@@ -1,5 +1,3 @@
-// app/constants/features.ts
-
 export interface Feature {
   id: string;
   image: string;

@@ -78,7 +78,6 @@ export function AnkietyContent() {
           </div>
         ) : (
           <div className="animate-appearance-in w-full">
-            {/* --- NOWY NAGŁÓWEK (STYL Z INFORMACJI) --- */}
             <div className="w-full flex flex-col items-center text-center gap-6 py-12 mb-8">
               <div className="flex flex-col gap-3">
                 <h1 className="text-5xl md:text-7xl font-black text-red-600 tracking-tight drop-shadow-[0_0_25px_rgba(220,38,38,0.4)] uppercase">
@@ -102,7 +101,6 @@ export function AnkietyContent() {
                 .
               </p>
             </div>
-            {/* ----------------------------------------- */}
 
             <div
               className={

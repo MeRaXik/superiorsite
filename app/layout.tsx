@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   },
   description:
     "Superior Studios specjalizuje się w tworzeniu serwerów w najpopularniejszych trybach w grze Garry's Mod.",
-  //metadataBase: new URL("https://superiostudios.pl"),
 };
 
 export default function RootLayout({

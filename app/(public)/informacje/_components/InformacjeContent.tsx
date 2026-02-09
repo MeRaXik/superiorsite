@@ -9,9 +9,7 @@ import { InfoRules } from "@/components/info/inforules/InfoRules";
 export function InformacjeContent() {
   return (
     <div className="w-full max-w-7xl mx-auto">
-      {/* --- NOWY NAGŁÓWEK (Zastąpił zdjęcie) --- */}
       <div className="w-full flex flex-col items-center text-center gap-6 py-12 animate-appearance-in">
-        {/* Tytuł i Subheader */}
         <div className="flex flex-col gap-3">
           <h1 className="text-5xl md:text-7xl font-black text-red-600 tracking-tight drop-shadow-[0_0_25px_rgba(220,38,38,0.4)] uppercase">
             Informacje
@@ -21,10 +19,8 @@ export function InformacjeContent() {
           </p>
         </div>
 
-        {/* Ozdobna Linia */}
         <div className="w-24 h-1 bg-linear-to-r from-transparent via-red-600 to-transparent opacity-80 rounded-full" />
 
-        {/* Tekst Opisowy */}
         <p className="text-lg md:text-xl text-gray-400 font-light max-w-2xl leading-relaxed">
           Tutaj znajdziesz najpotrzebniejsze informacje niezbędne do gry.
           Zapoznaj się z{" "}
@@ -36,9 +32,7 @@ export function InformacjeContent() {
         </p>
       </div>
 
-      {/* --- RESZTA TREŚCI (Bez zmian) --- */}
       <div className="flex flex-col gap-16 w-full">
-        {/* SEKCJA 1: WSTĘP */}
         <section>
           <h2 className="text-3xl font-bold mb-2 flex items-center gap-3 text-white">
             <span className="bg-yellow-500/20 text-yellow-500 p-2 rounded-lg">

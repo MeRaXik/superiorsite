@@ -9,7 +9,7 @@ export const ROLES: Role[] = [
   {
     name: "Detektyw",
     color: "blue",
-    image: "/img/informacje/detektyw.png", // Pamiętaj, żeby dodać te pliki do public/images
+    image: "/img/informacje/detektyw.png",
     desc: "Lider Niewinnych. Posiada dostęp do specjalnego sprzętu DNA i radarów. Jego zadaniem jest odnalezienie ciał i wskazanie zdrajców.",
   },
   {

@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@heroui/react";
-// Usunąłem import Link, ponieważ nie będziemy go tu używać w propie 'as'
 
 export function JoinServer() {
   const serverIp = "83.168.107.5:27015";
