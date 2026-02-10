@@ -32,7 +32,7 @@ export const shopItems: ShopItem[] = [
     image:
       "https://images.steamusercontent.com/ugc/576745934999373196/3260D123CC19A0B93700AFB90DD4F131DE249BD0/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
     workshopLink:
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=112233445",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=170910643",
   },
   {
     id: "skin_enderdragons",

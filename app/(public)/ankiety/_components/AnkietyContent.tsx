@@ -88,10 +88,8 @@ export function AnkietyContent() {
                 </p>
               </div>
 
-              {/* Ozdobna Linia */}
               <div className="w-24 h-1 bg-linear-to-r from-transparent via-red-600 to-transparent opacity-80 rounded-full" />
 
-              {/* Tekst Opisowy */}
               <p className="text-lg md:text-xl text-gray-400 font-light max-w-2xl leading-relaxed">
                 Pomóż nam podejmować decyzje dotyczące przyszłości serwera.
                 Każda opinia jest dla nas cenna i wpływa na rozwój{" "}
