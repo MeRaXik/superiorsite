@@ -1,4 +1,3 @@
-// app/components/info/InfoRules.tsx
 import { rules } from "@/app/constants/info";
 
 export function InfoRules() {
