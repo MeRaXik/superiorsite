@@ -9,6 +9,7 @@ import { InfoRules } from "@/components/info/inforules/InfoRules";
 export function InformacjeContent() {
   return (
     <div className="w-full max-w-7xl mx-auto">
+      {/* --- NAGŁÓWEK --- */}
       <div className="w-full flex flex-col items-center text-center gap-6 py-12 animate-appearance-in">
         <div className="flex flex-col gap-3">
           <h1 className="text-5xl md:text-7xl font-black text-red-600 tracking-tight drop-shadow-[0_0_25px_rgba(220,38,38,0.4)] uppercase">
@@ -33,6 +34,7 @@ export function InformacjeContent() {
       </div>
 
       <div className="flex flex-col gap-16 w-full">
+        {/* SEKCJA 1: WSTĘP */}
         <section>
           <h2 className="text-3xl font-bold mb-2 flex items-center gap-3 text-white">
             <span className="bg-yellow-500/20 text-yellow-500 p-2 rounded-lg">
@@ -44,6 +46,30 @@ export function InformacjeContent() {
             Poznaj podstawowe zasady rozgrywki i dowiedz się, na czym polega
             gra.
           </p>
+
+          <div className="w-full bg-red-950/30 border border-red-500/40 rounded-xl p-4 mb-8 flex flex-col md:flex-row items-center justify-between gap-4 shadow-[0_0_15px_rgba(220,38,38,0.1)]">
+            <div className="flex items-center gap-4">
+              <span className="text-3xl">📦</span>
+              <div className="text-center md:text-left">
+                <h3 className="text-white font-bold text-lg">
+                  Wymagana Kolekcja Steam
+                </h3>
+                <p className="text-gray-400 text-sm">
+                  Aby uniknąć błędów (ERROR/Szachownice) i widzieć wszystkie
+                  modele, pobierz naszą kolekcję.
+                </p>
+              </div>
+            </div>
+            <a
+              href="https://steamcommunity.com/sharedfiles/filedetails/?id=3658927481"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-2 bg-red-600 hover:bg-red-700 text-white font-bold rounded-lg transition-colors text-sm uppercase tracking-wide shadow-lg whitespace-nowrap"
+            >
+              Pobierz Kolekcję
+            </a>
+          </div>
+
           <InfoCard />
         </section>
 
